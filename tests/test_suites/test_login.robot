@@ -5,6 +5,6 @@ Library           SeleniumLibrary
 Open AlphaCode Website
     Open Browser    https://alphacode.org.in/    chrome
     Maximize Browser Window
-    Page Should Contain Element    id=main-wrapper
+    Page Should Contain Element   //span[normalize-space()='Home']
     Sleep    3
     Close Browser
